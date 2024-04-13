@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+@font-face {
+    font-family: norse;
+    src: url(assets/fonts/Norse-Bold.otf);
+  }
+.header {
+    flex: 1;
+    border: 1px solid;
+}
+.main {
+    flex: 3;
+    border: 1px solid;
+}
+.header-text {
+    background-color: rgb(0, 0, 0);
+}
+img {
+    width: 30px;
+    height: auto;
+}
+.header h1 {
+    color: white;
+    font-family: norse, sans-serif;
+}
