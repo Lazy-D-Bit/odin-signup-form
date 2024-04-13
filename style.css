@@ -9,13 +9,13 @@ body {
   }
 .header {
     flex: 1;
-    border: 1px solid;
     display: flex;
     align-items: center;
+    background-image: url(assets/images/background.avif);
+    background-size: cover;
 }
 .main {
     flex: 3;
-    border: 1px solid;
 }
 .header-text {
     flex: 1;
@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.7;
 }
 img {
     width: 50px;
@@ -34,4 +35,13 @@ img {
     margin: 0;
     color: white;
     font-family: norse, sans-serif;
+}
+.main {
+    display: flex;
+    align-items: center;
+}
+.main form {
+    flex: 1;
+    border: 1px solid;
+    padding: 5vw;
 }
